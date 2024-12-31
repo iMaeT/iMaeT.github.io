@@ -1,7 +1,7 @@
 {
   "name": "learning-notes",
   "version": "0.0.1",
-  "description": "学习笔记",
+  "description": "学习笔记，目前有three.js",
   "license": "MIT",
   "type": "module",
   "scripts": {
