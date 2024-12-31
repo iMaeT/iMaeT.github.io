@@ -27,6 +27,7 @@ jobs:
           node-version: 18.19.0
           # 缓存 pnpm 依赖
           cache: pnpm
+          
       - name: Install pnpm
         run: npm install -g pnpm@9.15.2
 

@@ -16,5 +16,6 @@
     "sass": "^1.83.0",
     "vue": "^3.4.0",
     "vuepress": "^2.0.0-rc.7"
-  }
+  },
+  "packageManager": "pnpm@9.15.2"
 }
