@@ -1,48 +1,44 @@
-# Threejs-jurney 笔记
+# Chatper 01 
 
-This is a normal page, which contains VuePress basics.
+## What is WebGL and why use Three.js
 
-## Pages
+### Introduction 
 
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
+#### Showcase Examples (展示案例)
+1. [https://bruno-simon.com](https://bruno-simon.com/) 🌟
+2. [https://cornrevolution.resn.global/](https://cornrevolution.resn.global/#) 🌽
+3. [https://richardmattka.com](https://richardmattka.com/) 🎨
+4. [https://lusion.co](https://lusion.co/) 🌐
+5. [https://www.oculus.com/medal-of-honor/](https://www.oculus.com/medal-of-honor/) 🏅
+6. [http://letsplay.ouigo.com](http://letsplay.ouigo.com/) 🚂
+7. [https://zen.ly](https://zen.ly/) 🧘
+8. [https://prior.co.jp/discover](https://prior.co.jp/discover) 🇯🇵
+9. [https://www.midwam.com](https://www.midwam.com/) 🏢
+10. [https://heraclosgame.com](https://heraclosgame.com/) 🎮
+11. [https://chartogne-taillet.com](https://chartogne-taillet.com/) 🍾
+12. [https://live.vanmoof.com/site](https://live.vanmoof.com/site) 🚴
+#### Three.js 相关链接
+1. [Mr.doob的个人网站](https://mrdoob.com/)
+2. [Mr.doob的Twitter](https://twitter.com/mrdoob)
+3. [Three.js GitHub贡献者列表](https://github.com/mrdoob/three.js/graphs/contributors)
+4. [Three.js GitHub发布页面](https://github.com/mrdoob/three.js/releases)
+5. [Three.js官网](https://threejs.org/)
+6. [Three.js文档](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
+7. [Three.js示例代码](https://threejs.org/examples/#webgl_tonemapping)
+8. [Three.js Twitter](https://twitter.com/threejs)
 
-See [routing][] for more details.
+### What is WebGL?
+WebGL 是一种 JavaScript API，用于在 HTML5 画布中高效地渲染三角形。它依赖于访问访问者的图形处理单元（GPU），使得渲染速度非常快。虽然 WebGL 主要用于 3D 渲染，但也可以生成 2D 体验。
+### Three.js to the rescue
+WebGL 是一种 JavaScript API，可以在画布中以惊人的速度渲染三角形。它兼容大多数现代浏览器，并且速度快，因为它使用了访问者的图形处理单元 (GPU)。
 
-## Content
+WebGL 不仅可以绘制三角形，还可以用于创建 2D 体验，但为了课程的目的，我们将专注于使用三角形创建 3D 体验。
 
-Every markdown file [will be rendered to HTML, then converted to a Vue SFC][content].
 
-VuePress support basic markdown syntax and [some extensions][synatex-extensions], you can also [use Vue features][vue-feature] in it.
+### What about other libraries?
 
-## Configuration
-
-VuePress use a `.vuepress/config.js`(or .ts) file as [site configuration][config], you can use it to config your site.
-
-For [client side configuration][client-config], you can create `.vuepress/client.js`(or .ts).
-
-Meanwhile, you can also add configuration per page with [frontmatter][].
-
-## Layouts and customization
-
-Here are common configuration controlling layout of `@vuepress/theme-default`:
-
-- [navbar][]
-- [sidebar][]
-
-Check [default theme docs][default-theme] for full reference.
-
-You can [add extra style][style] with `.vuepress/styles/index.scss` file.
-
-[routing]: https://vuejs.press/guide/page.html#routing
-[content]: https://vuejs.press/guide/page.html#content
-[synatex-extensions]: https://vuejs.press/guide/markdown.html#syntax-extensions
-[vue-feature]: https://vuejs.press/guide/markdown.html#using-vue-in-markdown
-[config]: https://vuejs.press/guide/configuration.html#client-config-file
-[client-config]: https://vuejs.press/guide/configuration.html#client-config-file
-[frontmatter]: https://vuejs.press/guide/page.html#frontmatter
-[navbar]: https://vuejs.press/reference/default-theme/config.html#navbar
-[sidebar]: https://vuejs.press/reference/default-theme/config.html#sidebar
-[default-theme]: https://vuejs.press/reference/default-theme/
-[style]: https://vuejs.press/reference/default-theme/styles.html#style-file
-
-## 自定义
+1. [Babylon.js](https://www.babylonjs.com/) - 一个强大的、开源的 3D 引擎，专为游戏和其他 3D 应用程序设计。
+2. [PlayCanvas](https://playcanvas.com/) - 一个开源的 3D 游戏引擎，支持实时协作开发。
+3. [A-Frame](https://aframe.io/) - 一个用于构建虚拟现实 (VR) 体验的 Web 框架，基于 Three.js。
+4. [PixiJS](https://pixijs.com/) - 一个快速的 2D 渲染引擎，支持 WebGL 和 HTML5。
+5. [Phaser](https://phaser.io/) - 一个快速、免费、开源的 HTML5 游戏框架，支持 WebGL 和 Canvas 渲染。
