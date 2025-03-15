@@ -1,8 +1,8 @@
-# Chapter 01 
+# threejs-jurney
 
-## What is WebGL and why use Three.js
+## Chapter 01 
 
-### 介绍 
+### 什么是WebGL,为什么选择threejs？
 
 #### Showcase Examples (展示案例)
 1. [🌟 Bruno Simon](https://bruno-simon.com/)
@@ -28,15 +28,15 @@
 7. [Three.js示例代码](https://threejs.org/examples/#webgl_tonemapping)
 8. [Three.js Twitter](https://twitter.com/threejs)
 
-### What is WebGL?
+#### What is WebGL?
 `WebGL` 是一种 JavaScript API，用于在 HTML5 画布中高效地渲染三角形。它依赖于访问访问者的图形处理单元（`GPU`），使得渲染速度非常快。虽然 `WebGL` 主要用于 `3D` 渲染，但也可以生成 `2D` 体验。
 
-### Three.js to the rescue
+#### Three.js to the rescue
 `WebGL` 是一种 JavaScript API，可以在画布中以惊人的速度渲染三角形。它兼容大多数现代浏览器，并且速度快，因为它使用了访问者的图形处理单元 (`GPU`)。
 
 `WebGL` 不仅可以绘制三角形，还可以用于创建 `2D` 体验，但为了课程的目的，我们将专注于使用三角形创建 `3D` 体验。
 
-### What about other libraries?
+#### What about other libraries?
 1. [Babylon.js](https://www.babylonjs.com/) - 一个强大的、开源的 3D 引擎，专为游戏和其他 3D 应用程序设计。
 2. [PlayCanvas](https://playcanvas.com/) - 一个开源的 3D 游戏引擎，支持实时协作开发。
 3. [A-Frame](https://aframe.io/) - 一个用于构建虚拟现实 (VR) 体验的 Web 框架，基于 Three.js。
