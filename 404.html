@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.19" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>学习笔记</title><meta name="description" content="记录各类课程知识，方便复习">
+    <link rel="preload" href="/assets/style-DpFQQICv.css" as="style"><link rel="stylesheet" href="/assets/style-DpFQQICv.css">
+    <link rel="modulepreload" href="/assets/app-Bj8P9idd.js"><link rel="modulepreload" href="/assets/404.html-CTUQjTCL.js">
+    <link rel="prefetch" href="/assets/index.html-C3wAma-d.js" as="script"><link rel="prefetch" href="/assets/get-started.html-CQ3ixuvb.js" as="script"><link rel="prefetch" href="/assets/threejs-jurney.html-_uvaEbnU.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-705c1449><main class="page" data-v-705c1449><div vp-content data-v-705c1449><h1 data-v-705c1449>404</h1><blockquote data-v-705c1449>How did we get here?</blockquote><a class="route-link" href="/" data-v-705c1449>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-Bj8P9idd.js" defer></script>
+  </body>
+</html>
